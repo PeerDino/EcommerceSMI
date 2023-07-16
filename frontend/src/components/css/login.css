@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 400px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button.btn-login {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a.forgot-password {
+  text-decoration: none;
+  color: #999;
+  margin-top: 10px;
+}
+
+.register-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-link p {
+  margin: 0;
+  color: #999;
+}
+
+.register-link a {
+  text-decoration: none;
+  color: #007bff;
+}
