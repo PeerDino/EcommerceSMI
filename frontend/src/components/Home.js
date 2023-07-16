@@ -59,7 +59,7 @@ const Home = () => {
     }
 
     dispatch(getProducts(keyword, currentPage, price, category, rating));
-  }, [dispatch, toast, error, keyword, currentPage, price, category, rating]);
+  }, [dispatch, error, keyword, currentPage, price, category, rating]);
 
   function setCurrentPageNo(pageNumber) {
     setCurrentPage(pageNumber);

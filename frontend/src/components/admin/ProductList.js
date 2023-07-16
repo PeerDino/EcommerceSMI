@@ -43,7 +43,7 @@ const ProductsList = () => {
       Navigate("/admin/products");
       dispatch({ type: DELETE_PRODUCT_RESET });
     }
-  }, [dispatch, toast, error, deleteError, isDeleted, Navigate]);
+  }, [dispatch, error, deleteError, isDeleted, Navigate]);
 
   const setProducts = () => {
     const data = {

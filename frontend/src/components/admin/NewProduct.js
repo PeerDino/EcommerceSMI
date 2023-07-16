@@ -52,7 +52,7 @@ const NewProduct = ({ history }) => {
       toast.success("Product created successfully");
       dispatch({ type: NEW_PRODUCT_RESET });
     }
-  }, [dispatch, toast, error, success, Navigate]);
+  }, [dispatch, error, success, Navigate]);
 
   const submitHandler = (e) => {
     e.preventDefault();

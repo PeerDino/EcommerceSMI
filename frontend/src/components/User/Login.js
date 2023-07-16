@@ -35,7 +35,7 @@ const Login = () => {
       toast.error(error);
       dispatch(clearErrors());
     }
-  }, [dispatch, toast, isAuthenticated, error, navigate, redirect]);
+  }, [dispatch, isAuthenticated, error, navigate, redirect]);
 
   const submitHandler = (e) => {
     e.preventDefault();

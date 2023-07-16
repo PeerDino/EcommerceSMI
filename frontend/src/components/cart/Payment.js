@@ -46,7 +46,7 @@ const Payment = ({ history }) => {
       toast.error(error);
       dispatch(clearErrors());
     }
-  }, [dispatch, toast, error]);
+  }, [dispatch, error]);
 
   const order = {
     orderItems: cartItems,

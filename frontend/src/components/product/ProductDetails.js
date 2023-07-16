@@ -51,7 +51,7 @@ const ProductDetails = ({ match }) => {
       toast.success("Reivew posted successfully");
       dispatch({ type: NEW_REVIEW_RESET });
     }
-  }, [dispatch, toast, error, reviewError, id, success]);
+  }, [dispatch, error, reviewError, id, success]);
 
   const addToCart = () => {
     dispatch(addItemToCart(id, quantity));

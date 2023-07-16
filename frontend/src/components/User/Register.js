@@ -38,7 +38,7 @@ const Register = () => {
       toast.error(error);
       dispatch(clearErrors());
     }
-  }, [dispatch, toast, isAuthenticated, error, navigate]);
+  }, [dispatch, isAuthenticated, error, navigate]);
 
   const submitHandler = (e) => {
     e.preventDefault();

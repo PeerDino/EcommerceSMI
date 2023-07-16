@@ -32,7 +32,7 @@ const UsersList = () => {
       navigate("/admin/users");
       dispatch({ type: DELETE_USER_RESET });
     }
-  }, [dispatch, toast, error, isDeleted, navigate]);
+  }, [dispatch, error, isDeleted, navigate]);
 
   const deleteUserHandler = (id) => {
     dispatch(deleteUser(id));

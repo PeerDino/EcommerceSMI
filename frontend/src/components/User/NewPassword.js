@@ -29,7 +29,7 @@ const NewPassword = () => {
       toast.success("Password updated successfully");
       navigate("/login");
     }
-  }, [dispatch, toast, error, success, navigate]);
+  }, [dispatch, error, success, navigate]);
 
   const submitHandler = (e) => {
     e.preventDefault();

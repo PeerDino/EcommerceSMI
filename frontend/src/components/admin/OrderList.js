@@ -32,7 +32,7 @@ const OrdersList = ({ history }) => {
       Navigate("/admin/orders");
       dispatch({ type: DELETE_ORDER_RESET });
     }
-  }, [dispatch, toast, error, isDeleted, Navigate]);
+  }, [dispatch, error, isDeleted, Navigate]);
 
   const deleteOrderHandler = (id) => {
     dispatch(deleteOrder(id));

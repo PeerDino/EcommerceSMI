@@ -34,7 +34,7 @@ const OrderDetails = ({ match }) => {
       toast.error(error);
       dispatch(clearErrors());
     }
-  }, [dispatch, toast, error, id]);
+  }, [dispatch, error, id]);
 
   const shippingDetails =
     shippingInfo &&

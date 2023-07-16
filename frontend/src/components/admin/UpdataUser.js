@@ -52,7 +52,7 @@ const UpdateUser = () => {
         type: UPDATE_USER_RESET,
       });
     }
-  }, [dispatch, toast, error, Navigate, isUpdated, userId, user]);
+  }, [dispatch, error, Navigate, isUpdated, userId, user]);
 
   const submitHandler = (e) => {
     e.preventDefault();

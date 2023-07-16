@@ -81,7 +81,7 @@ const UpdateProduct = () => {
       toast.success("Product updated successfully");
       dispatch({ type: UPDATE_PRODUCT_RESET });
     }
-  }, [dispatch, toast, error, isUpdated, Navigate, updateError, product, id]);
+  }, [dispatch, error, isUpdated, Navigate, updateError, product, id]);
 
   const submitHandler = (e) => {
     e.preventDefault();

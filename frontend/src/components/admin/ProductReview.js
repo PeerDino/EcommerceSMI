@@ -44,7 +44,7 @@ const ProductReviews = () => {
       toast.success("Review deleted successfully");
       dispatch({ type: DELETE_REVIEW_RESET });
     }
-  }, [dispatch, toast, error, productId, isDeleted, deleteError]);
+  }, [dispatch, error, productId, isDeleted, deleteError]);
 
   const deleteReviewHandler = (id) => {
     dispatch(deleteReview(id, productId));

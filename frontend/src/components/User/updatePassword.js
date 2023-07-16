@@ -32,7 +32,7 @@ const UpdatePassword = () => {
         type: UPDATE_PASSWORD_RESET,
       });
     }
-  }, [dispatch, toast, error, isUpdated, Navigate]);
+  }, [dispatch, error, isUpdated, Navigate]);
 
   const submitHandler = (e) => {
     e.preventDefault();
