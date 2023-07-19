@@ -4,7 +4,7 @@
   "description": "she made it",
   "main": "server.js",
   "scripts": {
-    "start": "dotenv -e .env node backend/server.js",
+    "start": "SET node backend/server.js",
     "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
     "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
     "seeder": "node backend/utils/seeder.js",
@@ -33,7 +33,7 @@
     "nodemon": "^2.0.22"
   },
   "engines": {
-    "node": "18.x",
-    "npm": "9.8.x"
+    "node": "18.12.1",
+    "npm": "9.8.0"
   }
 }
