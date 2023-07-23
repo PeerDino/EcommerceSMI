@@ -30,7 +30,7 @@ nav {
   background-color: #b388eb;
   padding: 1rem 1rem;
 }
-img{
+img {
   width: 80px;
   height: auto;
 }
@@ -617,4 +617,60 @@ ul.CTAs a {
 .review_user {
   font-size: 0.8rem;
   color: grey;
+}
+.shopping_cart {
+  position: relative;
+  top: 21px;
+  font-size: 24px;
+  color: black;
+}
+@media (max-width: 400px) {
+  #sidebar {
+    margin-left: -250px;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  .mobile {
+    flex-direction: flex-start;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+  }
+  .input {
+    position: absolute;
+    top: 13;
+    left: 17%;
+    width: 50%;
+    flex: 0 0 50%;
+  }
+  .cart_login {
+    position: absolute;
+    top: -9;
+    left: 24%;
+  }
+  img {
+    width: 50px;
+  }
+  .ml-4,
+  .mx-4 {
+    margin-left: 0.2rem !important;
+  }
+  #login_btn,
+  #view_btn {
+    padding: 0.2rem 0.6rem;
+  }
+  .wrapper {
+    margin-top: 3rem;
+  }
+  .wrapper form {
+    padding: 0.5rem 2rem;
+  }
+  .form-group {
+    margin-bottom: 0rem;
+  }
+  .pl-5,
+  .px-5 {
+    padding-left: 0rem;
+  }
 }

@@ -25,22 +25,22 @@ const Header = () => {
   return (
     <Fragment>
       <nav className="navbar row">
-        <div className="col-12 col-md-3">
-          <div className="navbar-brand">
+        <div className="col-12 col-md-3 allign">
+          <div className="navbar-brand logo">
             <Link to="/">
               <img src={smi_logo} alt="smi_logo" className="smi_logo" />
             </Link>
           </div>
         </div>
 
-        <div className="col-12 col-md-6 mt-2 mt-md-0">
+        <div className="col-12 col-md-6 mt-2 mt-md-0 input">
           <Search navigate={navigate} />
         </div>
 
-        <div className="col-12 col-md-3 mt-4 mt-md-0 text-center">
+        <div className="col-12 col-md-3 mt-4 mt-md-0 text-center cart_login">
           <Link to="/cart" style={{ textDecoration: "none" }}>
             <span id="cart" className="ml-3">
-              Cart
+              <i className="fas fa-shopping-cart shopping_cart"></i>
             </span>
             <span className="ml-1" id="cart_count">
               {cartItems.length}

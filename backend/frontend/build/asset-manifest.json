@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.0ac05d57.css",
-    "main.js": "/static/js/main.cfd7c6ff.js",
+    "main.js": "/static/js/main.062c62fd.js",
     "static/media/smi_logo.png": "/static/media/smi_logo.e59d14c5084cbbdc35d4.png",
     "index.html": "/index.html",
     "main.0ac05d57.css.map": "/static/css/main.0ac05d57.css.map",
-    "main.cfd7c6ff.js.map": "/static/js/main.cfd7c6ff.js.map"
+    "main.062c62fd.js.map": "/static/js/main.062c62fd.js.map"
   },
   "entrypoints": [
     "static/css/main.0ac05d57.css",
-    "static/js/main.cfd7c6ff.js"
+    "static/js/main.062c62fd.js"
   ]
 }
